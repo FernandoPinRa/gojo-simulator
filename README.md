@@ -48,14 +48,3 @@ DomainExpansion/
 ├── hand_landmarker.task    # Modelo de detección de manos (no incluido en el repo)
 └── README.md
 ```
-
-## .gitignore recomendado
-
-Crea un `.gitignore` con lo siguiente para no subir el entorno virtual ni el modelo:
-
-```
-.venv/
-hand_landmarker.task
-__pycache__/
-*.pyc
-```
